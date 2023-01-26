@@ -1,5 +1,6 @@
 
 ### Problem Statement
+
 [Problem Link](https://cses.fi/problemset/task/1632)
 In a movie festival, $n$ movies will be shown. Syrjälä's movie club consists of $k$ members, who will be all attending the festival.  
   
@@ -33,6 +34,52 @@ We do not assign the current movie to the member with largest previous ending ti
 We do not assign the current movie to any member. Let's say the current movie should have been assigned to $Member_x$ according to our algorithm. Instead, we assigned a movie $M_{x,a}$ in place of that. Now, we can easily replace the current movie with $M_{x,a}$ as we can be sure that current movie must have a ending time less than or equal to $M_{x,a}$, so the sequence $M_{x,a+1},...$ won't be disturbed and we already assumed that we can put this movie after $M_{x,a-1}$ according to our algorithm. So, we have achieved the same number of movies after this exchange. In fact, we have created a higher gap between current movie & $M_{x,a+1}$ so there are chances that we can insert some more movies there.
 
 In conclusion, in both cases, we are able to achieve equal or better answer if we do a exchange at lowest index $i$ where the sequences differ. We can do this repetitively until we make both the sequences equal without reducing the answer. Hence, our algorithm must produce one of the optimal solutions.
+
+#### Code
+```
+#include <iostream>
+#include <algorithm>
+#include <set>
+
+using namespace std;
+
+const int N = 2e5 + 5;
+
+int n, k;
+
+pair<int, int> movies[N];
+
+int main() {
+	cin >> n >> k;
+	for (int i = 0; i < n; i++) {
+		cin >> movies[i].first >> movies[i].second;
+	}
+	
+	sort(movies, movies + n, [](pair<int, int> a, pair<int, int> b) {
+		return a.second < b.second;
+	});
+	
+	int res = 0;
+	
+	multiset<int> st;
+
+	for (int i = 0; i < n; i++) {
+		auto it = st.upper_bound(movies[i].first);
+		if (it != st.begin()) {
+			it--;
+			res++;
+			st.erase(it);
+			st.insert(movies[i].second);
+		} else if (st.size() < k) {
+			res++;
+			st.insert(movies[i].second);
+		}
+	}
+	cout << res << endl;
+	return 0;
+
+}
+```
 
 
 
