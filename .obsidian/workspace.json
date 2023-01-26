@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Greedy/2 - Minimum number of jumps.md",
+                "file": "Greedy/1 - Movie Festival 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Greedy/2 - Minimum number of jumps.md",
+                "file": "Greedy/1 - Movie Festival 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Greedy/2 - Minimum number of jumps.md",
+                "file": "Greedy/1 - Movie Festival 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Greedy/2 - Minimum number of jumps.md"
+                "file": "Greedy/1 - Movie Festival 2.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "80c28542a8e2539f",
   "lastOpenFiles": [
+    "Greedy/2 - Minimum number of jumps.md",
     "Greedy/1 - Movie Festival 2.md",
     "Untitled.md"
   ]
