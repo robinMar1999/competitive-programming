@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Greedy/2 - Minimum number of jumps.md",
+                "file": "Greedy/1 - Movie Festival 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "762b5b315e25050f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Greedy/3 - Majority Element Boyer-Moore Algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Greedy/2 - Minimum number of jumps.md",
+                "file": "Greedy/3 - Majority Element Boyer-Moore Algorithm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Greedy/2 - Minimum number of jumps.md",
+                "file": "Greedy/3 - Majority Element Boyer-Moore Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Greedy/2 - Minimum number of jumps.md"
+                "file": "Greedy/3 - Majority Element Boyer-Moore Algorithm.md"
               }
             }
           }
@@ -159,7 +171,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "80c28542a8e2539f",
+  "active": "762b5b315e25050f",
   "lastOpenFiles": [
     "Greedy/1 - Movie Festival 2.md",
     "Greedy/2 - Minimum number of jumps.md",
