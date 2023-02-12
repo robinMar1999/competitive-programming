@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "94eaf07d915489fb",
+        "id": "2a54bab92692d4f1",
         "type": "tabs",
         "children": [
           {
-            "id": "93e84ea6dbfe3458",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Greedy/1 - Movie Festival 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "80c28542a8e2539f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Greedy/1 - Movie Festival 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "762b5b315e25050f",
+            "id": "772d4154e26bc559",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -171,9 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "762b5b315e25050f",
+  "active": "772d4154e26bc559",
   "lastOpenFiles": [
     "Greedy/1 - Movie Festival 2.md",
+    "Greedy/3 - Majority Element Boyer-Moore Algorithm.md",
     "Greedy/2 - Minimum number of jumps.md",
     "Untitled.md"
   ]
